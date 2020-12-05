@@ -32,29 +32,51 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'Ecommerce Crwn-Clothing',
+    info:
+      'Full-stack web ecommerce application with full functionalities built with React for UI, Redux for state management, Firebase for data storage, Express.js for handle payment request with Stripe API, and deploy at Herolu.',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/zakiafada32/clothing-app', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'Smart-Face Detection',
+    info:
+      'Full-stack web application that detect a face within a submitted image using a Clarifai API. It Built with React for UI, Node/Express.js server, user authentication with JWT and PostgreSQL database.',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/zakiafada32/smart-face-detection', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'Museum of the World',
+    info:
+      'Full-stack web application that provides a list of museum around the world. The app features is users can add a new museum and add a review for the museum user authentication, museum location with Mapbpox API and user authentication.',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/zakiafada32/camp-grounds', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project.jpg',
+    title: 'Hackernews Clone',
+    info:
+      'Full-stack web application clone of Hackernews built with GraphQL. The app features is display and search the list of links, user authentication, create new links, upvote links, and realtime update when other users create a new link or upvote a link.',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/zakiafada32/hackernews-apollo', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project.jpg',
+    title: 'Vanilla JS',
+    info: 'A list of interesting projects built with vanilla js, html and css.',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/zakiafada32', // if no repo, the button will not show up
   },
 ];
 
