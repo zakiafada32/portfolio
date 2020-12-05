@@ -2,25 +2,28 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Zaki Afada', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'personal website, portfolio, welcome to my website', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Zaki Afada',
+  subtitle: 'Full-Stack Web Developer',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne:
+    "I'm an Electrical Engineer turned Full-Stack Web Developer. I fell in love with the capabilities of web development after learning from various resources. Since then I've been on the path of a self-taught developer striving to always improve.",
+  paragraphTwo:
+    'I am conpceptual thinker with strong technical skills. I have experience i HTML, CSS, JavaScript, React, Redux, Node.js, Express.js, PostgreSQL and MongoDB',
+  paragraphThree:
+    'Beside programming, my hobbies are outdoor sports, cycling, reading and listening podcast',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
