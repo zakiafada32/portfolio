@@ -1,16 +1,17 @@
 #about {
-  background-color: $about-me-contact-color;
+  background-color: var(--theme-background);
   background-image: linear-gradient(
     135deg,
-    $about-me-contact-color 0%,
-    $about-me-contact-color 100%
+    var(--theme-background) 0%,
+    var(--theme-background) 100%
   );
-  color: $black-color;
+  color: var(--theme-color);
   height: 100%;
   border-top: 0px;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
   padding-bottom: 10%;
+  transition: color 0.2s ease-out, background 0.2s ease-out;
 
   @include respond(tab-land) {
     height: 100%;

@@ -21,25 +21,62 @@
   }
 }
 
+.toggle-button {
+  background: var(--toggle-gradient);
+  border: 2px solid var(--toggle-border);
+  border-radius: 30px;
+  cursor: pointer;
+  display: flex;
+  font-size: 0.5rem;
+  justify-content: space-between;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0.5rem;
+  position: absolute;
+  width: 8rem;
+  height: 4rem;
+  outline: none;
+  top: 6rem;
+  right: 7rem;
+
+  &:focus {
+    outline: none;
+  }
+
+  svg {
+    height: auto;
+    width: 2.5rem;
+    transition: all 0.3s linear;
+
+    &:first-child {
+      transform: var(--sun-icon-position);
+    }
+
+    &:nth-child(2) {
+      transform: var(--moon-icon-position);
+    }
+  }
+}
+
 /* Hero Style */
 .cta-btn--hero {
-  background-image: linear-gradient(135deg, $black-color 0%, $black-color 100%);
+  background-image: linear-gradient(135deg, var(--theme-color) 0%, var(--theme-color) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   border-width: 2px;
   border-style: solid;
-  border-image: linear-gradient(135deg, $black-color 0%, $black-color 100%);
+  border-image: linear-gradient(135deg, var(--theme-color) 0%, var(--theme-color) 100%);
   border-image-slice: 1;
   cursor: pointer;
   // Responsive Button hero style
   @include respond(phone) {
     background-image: none;
-    border: 2px solid $black-color;
-    -webkit-text-fill-color: $black-color;
+    border: 2px solid var(--theme-background);
+    -webkit-text-fill-color: var(--theme-background);
   }
 
   &::after {
-    background-image: linear-gradient(135deg, $black-color 0%, $black-color 100%);
+    background-image: linear-gradient(135deg, var(--theme-color) 0%, var(--theme-color) 100%);
     // Responsive Button hero style
     @include respond(phone) {
       background-image: none;
@@ -47,11 +84,11 @@
   }
 
   &:hover {
-    -webkit-text-fill-color: $white-color;
+    -webkit-text-fill-color: var(--theme-background);
     text-decoration: none;
     // Responsive Button hover hero style
     @include respond(phone) {
-      -webkit-text-fill-color: $black-color;
+      -webkit-text-fill-color: var(--theme-background);
     }
 
     &::after {
@@ -62,15 +99,15 @@
 
 /* Resume Style */
 .cta-btn--resume {
-  color: $black-color;
-  border: 2px solid $black-color;
+  color: var(--theme-color);
+  border: 2px solid var(--theme-color);
 
   &::after {
-    background: $black-color;
+    background: var(--theme-color);
   }
 
   &:hover {
-    color: $white-color;
+    color: var(--theme-background);
     text-decoration: none;
 
     &::after {
