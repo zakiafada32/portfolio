@@ -50,6 +50,23 @@
     }
   }
 
+  .hero-subtitle {
+    font-size: 3rem;
+    font-weight: lighter;
+    @include respond(tab-land) {
+      font-size: 2rem;
+    }
+    @include respond(tab-port) {
+      font-size: 2rem;
+    }
+    @include respond(phone) {
+      font-size: 2rem;
+    }
+    @include respond(phone-xs) {
+      font-size: 2rem;
+    }
+  }
+
   .cta-container {
     display: flex;
 

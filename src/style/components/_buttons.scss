@@ -74,6 +74,7 @@
 
 /* Hero Style */
 .cta-btn--hero {
+  width: 20rem;
   border: 2px solid transparent;
   background-image: linear-gradient(135deg, var(--theme-color) 0%, var(--theme-color) 100%);
   -webkit-background-clip: text;
@@ -134,4 +135,8 @@
 /* Arrow Button */
 .up i {
   color: #272727;
+}
+
+.cta-button--project {
+  width: auto;
 }
