@@ -32,12 +32,26 @@
   margin: 0 auto;
   overflow: hidden;
   padding: 0.5rem;
-  position: absolute;
+  // position: absolute;
+  position: fixed;
   width: 8rem;
   height: 4rem;
   outline: none;
-  top: 6rem;
-  right: 7rem;
+  // top: 6rem;
+  // right: 7rem;
+  top: 4.5rem;
+  right: 4.5rem;
+  z-index: 999;
+
+  @include respond(tab-port) {
+    top: 3rem;
+    right: 3rem;
+  }
+
+  @include respond(phone) {
+    top: 2rem;
+    right: 2rem;
+  }
 
   &:focus {
     outline: none;
@@ -60,6 +74,7 @@
 
 /* Hero Style */
 .cta-btn--hero {
+  border: 2px solid transparent;
   background-image: linear-gradient(135deg, var(--theme-color) 0%, var(--theme-color) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -71,8 +86,8 @@
   // Responsive Button hero style
   @include respond(phone) {
     background-image: none;
-    border: 2px solid var(--theme-background);
-    -webkit-text-fill-color: var(--theme-background);
+    border: 2px solid var(--theme-color);
+    -webkit-text-fill-color: var(--theme-color);
   }
 
   &::after {
@@ -88,7 +103,7 @@
     text-decoration: none;
     // Responsive Button hover hero style
     @include respond(phone) {
-      -webkit-text-fill-color: var(--theme-background);
+      -webkit-text-fill-color: var(--theme-color);
     }
 
     &::after {

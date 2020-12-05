@@ -13,6 +13,7 @@
   padding-bottom: 10%;
   transition: color 0.2s ease-out, background 0.2s ease-out;
 
+  // @include theme-transition;
   @include respond(tab-land) {
     height: 100%;
     -webkit-clip-path: none;

@@ -6,6 +6,7 @@
   margin-top: -15rem;
   padding-top: 15rem;
 
+  // @include theme-transition;
   @include respond(tab-land) {
     margin-top: 0;
     padding-top: 5rem;

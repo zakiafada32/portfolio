@@ -12,6 +12,7 @@
   color: var(--theme-color);
   transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
 
+  // @include theme-transition;
   @include respond(tab-land) {
     padding: 10rem 0;
     clip-path: none;
