@@ -77,4 +77,16 @@
       }
     }
   }
+
+  .logo-container {
+    display: flex;
+    flex-wrap: wrap;
+
+    img {
+      width: 25px;
+      height: 25px;
+      margin-right: 0.75rem;
+      margin-bottom: 0.75rem;
+    }
+  }
 }

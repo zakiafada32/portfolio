@@ -38,6 +38,50 @@ export const projectsData = [
     info2: '',
     url: '',
     repo: 'https://github.com/zakiafada32/clothing-app', // if no repo, the button will not show up
+    techList: [
+      {
+        id: nanoid(),
+        name: 'React',
+        iconUrl:
+          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223572/icons-50x50/react_vw6dzy.png',
+      },
+      {
+        id: nanoid(),
+        name: 'Redux',
+        iconUrl:
+          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223572/icons-50x50/redux_yprrd9.png',
+      },
+      {
+        id: nanoid(),
+        name: 'Node.js',
+        iconUrl:
+          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223572/icons-50x50/node_lvlwhg.png',
+      },
+      {
+        id: nanoid(),
+        name: 'Express.js',
+        iconUrl:
+          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223570/icons-50x50/express_ul52li.png',
+      },
+      {
+        id: nanoid(),
+        name: 'Firebase',
+        iconUrl:
+          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223571/icons-50x50/firebase_c2calw.png',
+      },
+      {
+        id: nanoid(),
+        name: 'Stripe API',
+        iconUrl:
+          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223572/icons-50x50/stripe_s0hpwp.png',
+      },
+      {
+        id: nanoid(),
+        name: 'Heroku',
+        iconUrl:
+          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223570/icons-50x50/heroku_l4hpjr.png',
+      },
+    ],
   },
   {
     id: nanoid(),
@@ -48,16 +92,104 @@ export const projectsData = [
     info2: '',
     url: '',
     repo: 'https://github.com/zakiafada32/smart-face-detection', // if no repo, the button will not show up
+    techList: [
+      {
+        id: nanoid(),
+        name: 'React',
+        iconUrl:
+          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223572/icons-50x50/react_vw6dzy.png',
+      },
+      {
+        id: nanoid(),
+        name: 'Node.js',
+        iconUrl:
+          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223572/icons-50x50/node_lvlwhg.png',
+      },
+      {
+        id: nanoid(),
+        name: 'Express.js',
+        iconUrl:
+          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223570/icons-50x50/express_ul52li.png',
+      },
+      {
+        id: nanoid(),
+        name: 'PostgreSQL',
+        iconUrl:
+          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223571/icons-50x50/postgresql_dm6ytz.png',
+      },
+      {
+        id: nanoid(),
+        name: 'JSON Web Tokens',
+        iconUrl:
+          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223570/icons-50x50/jwt_i3kgqx.png',
+      },
+      {
+        id: nanoid(),
+        name: 'Clarifai API',
+        iconUrl:
+          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223570/icons-50x50/clarifai_ukjot7.png',
+      },
+      {
+        id: nanoid(),
+        name: 'Heroku',
+        iconUrl:
+          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223570/icons-50x50/heroku_l4hpjr.png',
+      },
+    ],
   },
   {
     id: nanoid(),
     img: 'project.jpg',
     title: 'Museum of the World',
     info:
-      'Full-stack web application that provides a list of museum around the world. The app features is users can add a new museum and add a review for the museum user authentication, museum location with Mapbpox API and user authentication.',
+      'Full-stack web application that provides a list of museums around the world. The app features is users can add a new museum and add a review for the museum user authentication, museum location with Mapbpox API and user authentication.',
     info2: '',
     url: '',
     repo: 'https://github.com/zakiafada32/camp-grounds', // if no repo, the button will not show up
+    techList: [
+      {
+        id: nanoid(),
+        name: 'Node.js',
+        iconUrl:
+          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223572/icons-50x50/node_lvlwhg.png',
+      },
+      {
+        id: nanoid(),
+        name: 'Express.js',
+        iconUrl:
+          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223570/icons-50x50/express_ul52li.png',
+      },
+      {
+        id: nanoid(),
+        name: 'EJS',
+        iconUrl:
+          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223570/icons-50x50/ejs_dfqryv.png',
+      },
+      {
+        id: nanoid(),
+        name: 'MongoDB',
+        iconUrl:
+          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223571/icons-50x50/mongodb_ug0km0.png',
+      },
+      {
+        id: nanoid(),
+        name: 'Cloudinary API',
+        iconUrl:
+          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223570/icons-50x50/cloudinary_qudadz.png',
+      },
+      {
+        id: nanoid(),
+        name: 'MapBox API',
+        iconUrl:
+          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223571/icons-50x50/mapbox_rsvdgy.png',
+      },
+      {
+        id: nanoid(),
+        name: 'Heroku',
+        iconUrl:
+          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223570/icons-50x50/heroku_l4hpjr.png',
+      },
+    ],
   },
   {
     id: nanoid(),
@@ -68,6 +200,56 @@ export const projectsData = [
     info2: '',
     url: '',
     repo: 'https://github.com/zakiafada32/hackernews-apollo', // if no repo, the button will not show up
+    techList: [
+      {
+        id: nanoid(),
+        name: 'React',
+        iconUrl:
+          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223572/icons-50x50/react_vw6dzy.png',
+      },
+      {
+        id: nanoid(),
+        name: 'GraphQL',
+        iconUrl:
+          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223571/icons-50x50/graphql_zwh9sf.png',
+      },
+      {
+        id: nanoid(),
+        name: 'Apollo GraphQL',
+        iconUrl:
+          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223570/icons-50x50/apollo_bbma8p.png',
+      },
+      {
+        id: nanoid(),
+        name: 'Node.js',
+        iconUrl:
+          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223572/icons-50x50/node_lvlwhg.png',
+      },
+      {
+        id: nanoid(),
+        name: 'Prisma.io',
+        iconUrl:
+          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223572/icons-50x50/prisma_nfdrwa.png',
+      },
+      {
+        id: nanoid(),
+        name: 'PostgreSQL',
+        iconUrl:
+          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223571/icons-50x50/postgresql_dm6ytz.png',
+      },
+      {
+        id: nanoid(),
+        name: 'JSON Web Tokens',
+        iconUrl:
+          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223570/icons-50x50/jwt_i3kgqx.png',
+      },
+      {
+        id: nanoid(),
+        name: 'Heroku',
+        iconUrl:
+          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223570/icons-50x50/heroku_l4hpjr.png',
+      },
+    ],
   },
   {
     id: nanoid(),
@@ -77,6 +259,26 @@ export const projectsData = [
     info2: '',
     url: '',
     repo: 'https://github.com/zakiafada32', // if no repo, the button will not show up
+    techList: [
+      {
+        id: nanoid(),
+        name: 'JavaScript',
+        iconUrl:
+          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223571/icons-50x50/javascript_qlz89t.png',
+      },
+      {
+        id: nanoid(),
+        name: 'HTML',
+        iconUrl:
+          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223571/icons-50x50/html_omkjdi.png',
+      },
+      {
+        id: nanoid(),
+        name: 'CSS',
+        iconUrl:
+          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223570/icons-50x50/css_kc2qzz.png',
+      },
+    ],
   },
 ];
 
