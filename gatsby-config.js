@@ -1,4 +1,9 @@
 module.exports = {
+  siteMetadata: {
+    title: 'Zaki Afada | Web Developer',
+    author: 'Zaki Afada',
+    description: `Zaki Afada full stack web developer, welcome to my website`,
+  },
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,

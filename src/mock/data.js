@@ -2,9 +2,9 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Zaki Afada', // e.g: 'Name | Developer'
+  title: 'Zaki Afada | Web Developer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
-  description: 'personal website, portfolio, welcome to my website', // e.g: Welcome to my website
+  description: 'Zaki Afada full stack web developer, welcome to my website', // e.g: Welcome to my website
 };
 
 // HERO DATA
