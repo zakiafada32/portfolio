@@ -21,9 +21,9 @@ export const aboutData = {
   paragraphOne:
     "I'm an Electrical Engineer turned Full-Stack Web Developer. I fell in love with the capabilities of web development after learning from various resources. Since then I've been on the path of a self-taught developer striving to always improve.",
   paragraphTwo:
-    'I am conpceptual thinker with strong technical skills. I have experience i HTML, CSS, JavaScript, React, Redux, Node.js, Express.js, PostgreSQL and MongoDB',
+    'I am conpceptual thinker with strong technical skills. I have experience i HTML, CSS, JavaScript, React, Redux, Node.js, Express.js, PostgreSQL and MongoDB.',
   paragraphThree:
-    'Beside programming, my hobbies are outdoor sports, cycling, reading and listening podcast',
+    'Beside programming, my hobbies are outdoor sports, cycling, reading and listening podcast.',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -34,7 +34,7 @@ export const projectsData = [
     img: 'project.jpg',
     title: 'Ecommerce Crwn-Clothing',
     info:
-      'Full-stack web ecommerce application with full functionalities built with React for UI, Redux for state management, Firebase for data storage, Express.js for handle payment request with Stripe API, and deploy at Herolu.',
+      'Full-stack web ecommerce application with full functionalities built with React for UI, Redux for state management, Firebase for data storage, Express.js for handle payment request with Stripe API, and deploy at Heroku.',
     info2: '',
     url: '',
     repo: 'https://github.com/zakiafada32/clothing-app', // if no repo, the button will not show up
@@ -142,7 +142,7 @@ export const projectsData = [
     img: 'project.jpg',
     title: 'Museum of the World',
     info:
-      'Full-stack web application that provides a list of museums around the world. The app features is users can add a new museum and add a review for the museum user authentication, museum location with Mapbpox API and user authentication.',
+      'Full-stack web application that provides a list of museums around the world. The app features is users can add a new museum and add a review for the museum, museums location with Mapbpox API and user authentication.',
     info2: '',
     url: '',
     repo: 'https://github.com/zakiafada32/camp-grounds', // if no repo, the button will not show up
@@ -284,33 +284,33 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'Would you like to work with me? Awesome!',
+  btn: 'afadazaki32@gmail.com',
+  email: 'afadazaki32@gmail.com',
 };
 
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
+    // {
+    //   id: nanoid(),
+    //   name: 'twitter',
+    //   url: '',
+    // },
+    // {
+    //   id: nanoid(),
+    //   name: 'codepen',
+    //   url: '',
+    // },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/zaki-afada/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/zakiafada32',
     },
   ],
 };
