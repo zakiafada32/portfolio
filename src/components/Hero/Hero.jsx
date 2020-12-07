@@ -63,6 +63,19 @@ const Header = () => {
                   </Link>
                 </span>
               </p>
+              <p className="hero-cta">
+                <span className="cta-btn cta-btn--hero">
+                  <a
+                    className="my-blog"
+                    href="https://cathetan.netlify.app/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    aria-label={name}
+                  >
+                    {cta || 'Visit my blog'}
+                  </a>
+                </span>
+              </p>
             </div>
           </Fade>
         </Container>

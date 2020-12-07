@@ -31,7 +31,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'clothing.png',
     title: 'Ecommerce Crwn-Clothing',
     info:
       'Full-stack web ecommerce application with full functionalities built with React for UI, Redux for state management, Firebase for data storage, Express.js for handle payment request with Stripe API, and deploy at Heroku.',
@@ -85,7 +85,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'smartface.png',
     title: 'Smart-Face Detection',
     info:
       'Full-stack web application that detect a face within a submitted image using a Clarifai API. It Built with React for UI, Node/Express.js server, user authentication with JWT and PostgreSQL database.',
@@ -139,7 +139,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'yelpcamp.png',
     title: 'Museum of the World',
     info:
       'Full-stack web application that provides a list of museums around the world. The app features is users can add a new museum and add a review for the museum, museums location with Mapbpox API and user authentication.',
@@ -193,7 +193,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'hackernews.png',
     title: 'Hackernews Clone',
     info:
       'Full-stack web application clone of Hackernews built with GraphQL. The app features is display and search the list of links, user authentication, create new links, upvote links, and realtime update when other users create a new link or upvote a link.',
@@ -253,7 +253,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'vanillajs.png',
     title: 'Vanilla JS',
     info: 'A list of interesting projects built with vanilla js, html and css.',
     info2: '',
