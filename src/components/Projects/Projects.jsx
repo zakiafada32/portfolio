@@ -29,7 +29,6 @@ const Projects = () => {
           <Title title="Projects" />
           {projects.map((project) => {
             const { title, info, info2, url, repo, img, id, techList } = project;
-
             return (
               <Row key={id}>
                 <Col lg={4} sm={12}>
@@ -52,15 +51,18 @@ const Projects = () => {
                           {techList.map(tech => (<img key={tech.id} src={tech.iconUrl} title={tech.name} alt="." />))}
                         </p>
                       </div>
-                      <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="cta-btn cta-btn--hero cta-button--project"
-                        href={url || '#!'}
-                      >
-                        See Live
-                      </a>
-
+                      {
+                        url !== "" &&(
+                        <a
+                          target={url === "" ? "" : "_blank"}
+                          rel="noopener noreferrer"
+                          className="cta-btn cta-btn--hero cta-button--project"
+                          href={url || '#'}
+                        >
+                          See Live
+                        </a>
+                        )
+                      }
                       {repo && (
                         <a
                           target="_blank"

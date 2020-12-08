@@ -17,13 +17,26 @@ const Contact = () => {
             <p className="contact-wrapper__text">
               {cta || 'Would you like to work with me? Awesome!'}
             </p>
+            {/* <a
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cta-btn cta-btn--resume"
+              style={{marginBottom:"1rem"}}
+              href="https://cathetan.netlify.app/contact"
+              aria-label="Send an email"
+            >
+              Send an email
+            </a>
+            <br /> */}
             <a
               target="_blank"
               rel="noopener noreferrer"
               className="cta-btn cta-btn--resume"
-              href={email ? `mailto:${email}` : 'https://github.com/cobidev/react-simplefolio'}
+              // style={{color:"#000"}}
+              href={email ? `mailto:${email}` : 'https://github.com/zakiafada32'}
+              aria-label="email"
             >
-              {btn || "afadazaki32@gmail.com"}
+              email: {btn || "afadazaki32@gmail.com"}
             </a>
           </div>
         </Fade>

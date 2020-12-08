@@ -24,7 +24,7 @@ export const aboutData = {
     'I am conpceptual thinker with strong technical skills. I have experience i HTML, CSS, JavaScript, React, Redux, Node.js, Express.js, PostgreSQL and MongoDB.',
   paragraphThree:
     'Beside programming, my hobbies are outdoor sports, cycling, reading and listening podcast.',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -32,11 +32,11 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'clothing.png',
-    title: 'Ecommerce Crwn-Clothing',
+    title: 'Clothing E-commerce',
     info:
       'Full-stack web ecommerce application with full functionalities built with React for UI, Redux for state management, Firebase for data storage, Express.js for handle payment request with Stripe API, and deploy at Heroku.',
     info2: '',
-    url: '',
+    url: 'https://clothing-app-zaki.herokuapp.com/',
     repo: 'https://github.com/zakiafada32/clothing-app', // if no repo, the button will not show up
     techList: [
       {
@@ -90,7 +90,7 @@ export const projectsData = [
     info:
       'Full-stack web application that detect a face within a submitted image using a Clarifai API. It Built with React for UI, Node/Express.js server, user authentication with JWT and PostgreSQL database.',
     info2: '',
-    url: '',
+    url: 'https://face-detection-zaki.herokuapp.com/',
     repo: 'https://github.com/zakiafada32/smart-face-detection', // if no repo, the button will not show up
     techList: [
       {
@@ -139,12 +139,12 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'yelpcamp.png',
-    title: 'Museum of the World',
+    img: 'dolanan.png',
+    title: 'Dolanan',
     info:
-      'Full-stack web application that provides a list of museums around the world. The app features is users can add a new museum and add a review for the museum, museums location with Mapbpox API and user authentication.',
+      'Full-stack web application that provides a list of holiday destinations in Indonesia. The app features is users can add a new holiday destination and add a review for the destination, use Mapbpox API for destination location and user authentication.',
     info2: '',
-    url: '',
+    url: 'https://serene-shelf-47659.herokuapp.com/',
     repo: 'https://github.com/zakiafada32/camp-grounds', // if no repo, the button will not show up
     techList: [
       {
@@ -198,7 +198,7 @@ export const projectsData = [
     info:
       'Full-stack web application clone of Hackernews built with GraphQL. The app features is display and search the list of links, user authentication, create new links, upvote links, and realtime update when other users create a new link or upvote a link.',
     info2: '',
-    url: '',
+    url: 'https://hackernerws-clone.netlify.app/',
     repo: 'https://github.com/zakiafada32/hackernews-apollo', // if no repo, the button will not show up
     techList: [
       {
@@ -257,8 +257,8 @@ export const projectsData = [
     title: 'Vanilla JS',
     info: 'A list of interesting projects built with vanilla js, html and css.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/zakiafada32', // if no repo, the button will not show up
+    url: 'https://github.com/zakiafada32/vanilla-js/blob/main/README.md',
+    repo: 'https://github.com/zakiafada32/vanilla-js/blob/main/README.md', // if no repo, the button will not show up
     techList: [
       {
         id: nanoid(),
