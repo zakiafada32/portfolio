@@ -33,6 +33,7 @@ const About = () => {
               <div className="about-wrapper__image">
                 {/* <AboutImg alt="profile picture" filename={img} /> */}
                 <Tilt
+                  className="color-shadow"
                   options={{
                     reverse: false,
                     max: 8,
@@ -62,7 +63,7 @@ const About = () => {
                     '.'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                  {paragraphThree || '.'}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">

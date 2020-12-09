@@ -12,6 +12,7 @@ body {
   --toggle-gradient: linear-gradient(#39598a, #79d7ed);
   --sun-icon-position: translateY(0);
   --moon-icon-position: translateY(-100px);
+  --color-shadow: rgba(0, 0, 0, 0.31);
   background-color: var(--theme-background);
   @include theme-transition;
 }
@@ -25,6 +26,7 @@ body.dark {
   --toggle-gradient: linear-gradient(#091236, #1e215d);
   --sun-icon-position: translateY(100px);
   --moon-icon-position: translateY(0);
+  --color-shadow: rgba(255, 255, 255, 0.295);
   background-color: var(--theme-background);
   @include theme-transition;
 }
