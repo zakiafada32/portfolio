@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne:
     "I'm an Electrical Engineer turned Full-Stack Web Developer. I fell in love with the capabilities of web development after learning from various resources. Since then I've been on the path of a self-taught developer striving to always improve.",
   paragraphTwo:
-    'I am conpceptual thinker with strong technical skills. I have experience i HTML, CSS, JavaScript, React, Redux, Node.js, Express.js, PostgreSQL and MongoDB.',
+    'I am conpceptual thinker with strong technical skills. I have experience in HTML, CSS, JavaScript, React, Redux, Node.js, Express.js, PostgreSQL and MongoDB.',
   paragraphThree:
     'Beside programming, my hobbies are outdoor sports, cycling, reading and listening podcast.',
   resume: '', // if no resume, the button will not show up
@@ -142,7 +142,7 @@ export const projectsData = [
     img: 'dolanan.png',
     title: 'Dolanan',
     info:
-      'Full-stack web application that provides a list of holiday destinations in Indonesia. The app features is users can add a new holiday destination and add a review for the destination, use Mapbpox API for destination location and user authentication.',
+      'Full-stack web application that provides a list of holiday destinations in Indonesia. The app features is users can add a new holiday destination and add a review for the destination, user authentication and use Mapbpox API for destination location.',
     info2: '',
     url: 'https://serene-shelf-47659.herokuapp.com/',
     repo: 'https://github.com/zakiafada32/camp-grounds', // if no repo, the button will not show up

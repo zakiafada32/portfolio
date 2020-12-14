@@ -15,6 +15,12 @@ export default () => {
         <title>{title || 'Gatsby Simplefolio'}</title>
         <html lang={lang || 'en'} />
         <meta name="description" content={description || 'Gatsby Simplefolio'} />
+        <meta property="og:title" content="Zaki Afada Full-Stack Web Developer" />
+        <meta property="og:description" content="portfolio personal website" />
+        <meta
+          property="og:image"
+          content="https://res.cloudinary.com/dwonu6xev/image/upload/v1607915006/portfolio/open_graph_my0vdx.png"
+        />
       </Helmet>
       <App />
     </>
