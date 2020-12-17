@@ -19,11 +19,11 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.png',
   paragraphOne:
-    "I'm an Electrical Engineer turned Full-Stack Web Developer. I fell in love with the capabilities of web development after learning from various resources. Since then I've been on the path of a self-taught developer striving to always improve.",
+    "I'm an Electrical Engineer turned Full-Stack Web Developer. I fell in love with the capabilities of web development after learning from various resources. Since then, I've been on the path of a self-taught developer striving to improve.",
   paragraphTwo:
-    'I am conpceptual thinker with strong technical skills. I have experience in HTML, CSS, JavaScript, React, Redux, Node.js, Express.js, PostgreSQL and MongoDB.',
+    'I am a conceptual thinker with strong technical skills. I have experience in HTML, CSS, JavaScript, React, Redux, Node.js, Express.js, PostgreSQL and MongoDB.',
   paragraphThree:
-    'Beside programming, my hobbies are outdoor sports, cycling, reading and listening podcast.',
+    'Besides programming, my hobbies are outdoor sports, cycling, reading, and listening to a podcast.',
   resume: '', // if no resume, the button will not show up
 };
 
@@ -34,7 +34,7 @@ export const projectsData = [
     img: 'clothing.png',
     title: 'Clothing E-commerce',
     info:
-      'Full-stack web ecommerce application with full functionalities built with React for UI, Redux for state management, Firebase for data storage, Express.js for handle payment request with Stripe API, and deploy at Heroku.',
+      'Full-stack web e-commerce application with full functionalities built with React for UI, Redux for state management, Firebase for data storage, Express.js for handle payment requests with Stripe API, and deploy at Heroku.',
     info2: '',
     url: 'https://clothing-app-zaki.herokuapp.com/',
     repo: 'https://github.com/zakiafada32/clothing-app', // if no repo, the button will not show up
@@ -88,7 +88,7 @@ export const projectsData = [
     img: 'smartface.png',
     title: 'Smart-Face Detection',
     info:
-      'Full-stack web application that detect a face within a submitted image using a Clarifai API. It Built with React for UI, Node/Express.js server, user authentication with JWT and PostgreSQL database.',
+      'Full-stack web application that detects a face within a submitted image using a Clarifai API. It Built with React for UI, Node/Express.js server, user authentication with JWT, and PostgreSQL database.',
     info2: '',
     url: 'https://face-detection-zaki.herokuapp.com/',
     repo: 'https://github.com/zakiafada32/smart-face-detection', // if no repo, the button will not show up
@@ -142,7 +142,7 @@ export const projectsData = [
     img: 'dolanan.png',
     title: 'Dolanan',
     info:
-      'Full-stack web application that provides a list of holiday destinations in Indonesia. The app features is users can add a new holiday destination and add a review for the destination, user authentication and use Mapbpox API for destination location.',
+      'Full-stack web application that provides a list of holiday destinations in Indonesia. The app features are users can add a new holiday destination and add a review for it, user authentication, and use Mapbox API for the destination location.',
     info2: '',
     url: 'https://serene-shelf-47659.herokuapp.com/',
     repo: 'https://github.com/zakiafada32/camp-grounds', // if no repo, the button will not show up
@@ -196,7 +196,7 @@ export const projectsData = [
     img: 'hackernews.png',
     title: 'Hackernews Clone',
     info:
-      'Full-stack web application clone of Hackernews built with GraphQL. The app features is display and search the list of links, user authentication, create new links, upvote links, and realtime update when other users create a new link or upvote a link.',
+      'Full-stack web application clone of Hackernews built with GraphQL. The app features are the list of links search, user authentication, create a new link, upvote links, and real-time update when other users create a new or upvote a link.',
     info2: '',
     url: 'https://hackernerws-clone.netlify.app/',
     repo: 'https://github.com/zakiafada32/hackernews-apollo', // if no repo, the button will not show up
@@ -255,7 +255,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'vanillajs.png',
     title: 'Vanilla JS',
-    info: 'A list of interesting projects built with vanilla js, html and css.',
+    info: 'A list of interesting app built with Vanilla JS, HTML, and CSS.',
     info2: '',
     url: 'https://github.com/zakiafada32/vanilla-js/blob/main/README.md',
     repo: 'https://github.com/zakiafada32/vanilla-js/blob/main/README.md', // if no repo, the button will not show up
