@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne:
     "I'm an Electrical Engineer turned Full-Stack Web Developer. I fell in love with the capabilities of web development after learning from various resources. Since then, I've been on the path of a self-taught developer striving to improve.",
   paragraphTwo:
-    'I am a conceptual thinker with strong technical skills. I have experience in HTML, CSS, JavaScript, React, Redux, Node.js, Express.js, PostgreSQL and MongoDB.',
+    'I am a conceptual thinker with strong technical skills. I have experience in JavaScript, Typescript, React, Redux, Node.js, Express.js, Python, PostgreSQL and MongoDB.',
   paragraphThree:
     'Besides programming, my hobbies are outdoor sports, cycling, reading, and listening to a podcast.',
   resume: '', // if no resume, the button will not show up
@@ -29,6 +29,60 @@ export const aboutData = {
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'codenote.png',
+    title: 'jschalk',
+    info:
+      'Jschalk is an interactive javascript playground environment built with Typescript, React for UI, Redux for state management, Esbuild for bundle JS code, and Express.js for handle CLI requests.',
+    info2: '',
+    url: 'https://www.npmjs.com/package/jschalk/',
+    repo: 'https://github.com/zakiafada32/code-note/', // if no repo, the button will not show up
+    techList: [
+      {
+        id: nanoid(),
+        name: 'Typescript',
+        iconUrl:
+          'https://res.cloudinary.com/dwonu6xev/image/upload/v1621863653/icons-50x50/typescript-logo_edezyj.png',
+      },
+      {
+        id: nanoid(),
+        name: 'React',
+        iconUrl:
+          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223572/icons-50x50/react_vw6dzy.png',
+      },
+      {
+        id: nanoid(),
+        name: 'Redux',
+        iconUrl:
+          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223572/icons-50x50/redux_yprrd9.png',
+      },
+      {
+        id: nanoid(),
+        name: 'Node.js',
+        iconUrl:
+          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223572/icons-50x50/node_lvlwhg.png',
+      },
+      {
+        id: nanoid(),
+        name: 'Express.js',
+        iconUrl:
+          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223570/icons-50x50/express_ul52li.png',
+      },
+      {
+        id: nanoid(),
+        name: 'NPM',
+        iconUrl:
+          'https://res.cloudinary.com/dwonu6xev/image/upload/v1621863805/icons-50x50/npm-logo_zjyjjp.png',
+      },
+      {
+        id: nanoid(),
+        name: 'Esbuild',
+        iconUrl:
+          'https://res.cloudinary.com/dwonu6xev/image/upload/v1621864000/icons-50x50/esbuild-logo_z0szzj.png',
+      },
+    ],
+  },
   {
     id: nanoid(),
     img: 'clothing.png',
