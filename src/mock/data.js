@@ -33,8 +33,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'codenote.png',
     title: 'jschalk',
-    info:
-      'Jschalk is an interactive javascript playground environment built with Typescript, React for UI, Redux for state management, Esbuild for bundle JS code, and Express.js for handle CLI requests.',
+    info: 'Jschalk is an interactive javascript playground environment built with Typescript, React for UI, Redux for state management, Esbuild for bundle JS code, and Express.js for handle CLI requests.',
     info2: '',
     url: 'https://www.npmjs.com/package/jschalk/',
     repo: 'https://github.com/zakiafada32/code-note/', // if no repo, the button will not show up
@@ -59,24 +58,6 @@ export const projectsData = [
       },
       {
         id: nanoid(),
-        name: 'Node.js',
-        iconUrl:
-          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223572/icons-50x50/node_lvlwhg.png',
-      },
-      {
-        id: nanoid(),
-        name: 'Express.js',
-        iconUrl:
-          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223570/icons-50x50/express_ul52li.png',
-      },
-      {
-        id: nanoid(),
-        name: 'NPM',
-        iconUrl:
-          'https://res.cloudinary.com/dwonu6xev/image/upload/v1621863805/icons-50x50/npm-logo_zjyjjp.png',
-      },
-      {
-        id: nanoid(),
         name: 'Esbuild',
         iconUrl:
           'https://res.cloudinary.com/dwonu6xev/image/upload/v1621864000/icons-50x50/esbuild-logo_z0szzj.png',
@@ -87,8 +68,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'clothing.png',
     title: 'Clothing E-commerce',
-    info:
-      'Full-stack web e-commerce application with full functionalities built with React for UI, Redux for state management, Firebase for data storage, Express.js for handle payment requests with Stripe API, and deploy at Heroku.',
+    info: 'Full-stack web e-commerce application with full functionalities built with React for UI, Redux for state management, Firebase for data storage, Express.js for handle payment requests with Stripe API, and deploy at Heroku.',
     info2: '',
     url: 'https://clothing-app-zaki.herokuapp.com/',
     repo: 'https://github.com/zakiafada32/clothing-app', // if no repo, the button will not show up
@@ -104,12 +84,6 @@ export const projectsData = [
         name: 'Redux',
         iconUrl:
           'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223572/icons-50x50/redux_yprrd9.png',
-      },
-      {
-        id: nanoid(),
-        name: 'Node.js',
-        iconUrl:
-          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223572/icons-50x50/node_lvlwhg.png',
       },
       {
         id: nanoid(),
@@ -141,8 +115,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'smartface.png',
     title: 'Smart-Face Detection',
-    info:
-      'Full-stack web application that detects a face within a submitted image using a Clarifai API. It Built with React for UI, Node/Express.js server, user authentication with JWT, and PostgreSQL database.',
+    info: 'Full-stack web application that detects a face within a submitted image using a Clarifai API. It Built with React for UI, Node/Express.js server, user authentication with JWT, and PostgreSQL database.',
     info2: '',
     url: 'https://face-detection-zaki.herokuapp.com/',
     repo: 'https://github.com/zakiafada32/smart-face-detection', // if no repo, the button will not show up
@@ -152,12 +125,6 @@ export const projectsData = [
         name: 'React',
         iconUrl:
           'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223572/icons-50x50/react_vw6dzy.png',
-      },
-      {
-        id: nanoid(),
-        name: 'Node.js',
-        iconUrl:
-          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223572/icons-50x50/node_lvlwhg.png',
       },
       {
         id: nanoid(),
@@ -173,21 +140,9 @@ export const projectsData = [
       },
       {
         id: nanoid(),
-        name: 'JSON Web Tokens',
-        iconUrl:
-          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223570/icons-50x50/jwt_i3kgqx.png',
-      },
-      {
-        id: nanoid(),
         name: 'Clarifai API',
         iconUrl:
           'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223570/icons-50x50/clarifai_ukjot7.png',
-      },
-      {
-        id: nanoid(),
-        name: 'Heroku',
-        iconUrl:
-          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223570/icons-50x50/heroku_l4hpjr.png',
       },
     ],
   },
@@ -195,8 +150,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'dolanan.png',
     title: 'Dolanan',
-    info:
-      'Full-stack web application that provides a list of holiday destinations in Indonesia. The app features are users can add a new holiday destination and add a review for it, user authentication, and use Mapbox API for the destination location.',
+    info: 'Full-stack web application that provides a list of holiday destinations in Indonesia. The app features are users can add a new holiday destination and add a review for it, user authentication, and use Mapbox API for the destination location.',
     info2: '',
     url: 'https://serene-shelf-47659.herokuapp.com/',
     repo: 'https://github.com/zakiafada32/camp-grounds', // if no repo, the button will not show up
@@ -212,12 +166,6 @@ export const projectsData = [
         name: 'Express.js',
         iconUrl:
           'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223570/icons-50x50/express_ul52li.png',
-      },
-      {
-        id: nanoid(),
-        name: 'EJS',
-        iconUrl:
-          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223570/icons-50x50/ejs_dfqryv.png',
       },
       {
         id: nanoid(),
@@ -237,20 +185,13 @@ export const projectsData = [
         iconUrl:
           'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223571/icons-50x50/mapbox_rsvdgy.png',
       },
-      {
-        id: nanoid(),
-        name: 'Heroku',
-        iconUrl:
-          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223570/icons-50x50/heroku_l4hpjr.png',
-      },
     ],
   },
   {
     id: nanoid(),
     img: 'hackernews.png',
     title: 'Hackernews Clone',
-    info:
-      'Full-stack web application clone of Hackernews built with GraphQL. The app features are the list of links search, user authentication, create a new link, upvote links, and real-time update when other users create a new or upvote a link.',
+    info: 'Full-stack web application clone of Hackernews built with GraphQL. The app features are the list of links search, user authentication, create a new link, upvote links, and real-time update when other users create a new or upvote a link.',
     info2: '',
     url: 'https://hackernerws-clone.netlify.app/',
     repo: 'https://github.com/zakiafada32/hackernews-apollo', // if no repo, the button will not show up
@@ -275,33 +216,9 @@ export const projectsData = [
       },
       {
         id: nanoid(),
-        name: 'Node.js',
-        iconUrl:
-          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223572/icons-50x50/node_lvlwhg.png',
-      },
-      {
-        id: nanoid(),
-        name: 'Prisma.io',
-        iconUrl:
-          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223572/icons-50x50/prisma_nfdrwa.png',
-      },
-      {
-        id: nanoid(),
         name: 'PostgreSQL',
         iconUrl:
           'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223571/icons-50x50/postgresql_dm6ytz.png',
-      },
-      {
-        id: nanoid(),
-        name: 'JSON Web Tokens',
-        iconUrl:
-          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223570/icons-50x50/jwt_i3kgqx.png',
-      },
-      {
-        id: nanoid(),
-        name: 'Heroku',
-        iconUrl:
-          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223570/icons-50x50/heroku_l4hpjr.png',
       },
     ],
   },

@@ -44,6 +44,19 @@ const Header = () => {
             <div className="cta-container">
               <p className="hero-cta">
                 <span className="cta-btn cta-btn--hero">
+                  <a
+                    className="my-blog"
+                    href="https://blog.zakiafada.me/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    aria-label={name}
+                  >
+                    {cta || 'Visit my blog'}
+                  </a>
+                </span>
+              </p>
+              <p className="hero-cta">
+                <span className="cta-btn cta-btn--hero">
                   <Link to="about" smooth duration={1000}>
                     {cta || 'Know more'}
                   </Link>
@@ -61,19 +74,6 @@ const Header = () => {
                   <Link to="contact" smooth duration={1000}>
                     {cta || 'Contact me'}
                   </Link>
-                </span>
-              </p>
-              <p className="hero-cta">
-                <span className="cta-btn cta-btn--hero">
-                  <a
-                    className="my-blog"
-                    href="https://cathetan.netlify.app/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                    aria-label={name}
-                  >
-                    {cta || 'Visit my blog'}
-                  </a>
                 </span>
               </p>
             </div>
