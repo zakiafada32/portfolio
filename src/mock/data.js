@@ -111,41 +111,7 @@ export const projectsData = [
       },
     ],
   },
-  {
-    id: nanoid(),
-    img: 'smartface.png',
-    title: 'Smart-Face Detection',
-    info: 'Full-stack web application that detects a face within a submitted image using a Clarifai API. It Built with React for UI, Node/Express.js server, user authentication with JWT, and PostgreSQL database.',
-    info2: '',
-    url: 'https://face-detection-zaki.herokuapp.com/',
-    repo: 'https://github.com/zakiafada32/smart-face-detection', // if no repo, the button will not show up
-    techList: [
-      {
-        id: nanoid(),
-        name: 'React',
-        iconUrl:
-          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223572/icons-50x50/react_vw6dzy.png',
-      },
-      {
-        id: nanoid(),
-        name: 'Express.js',
-        iconUrl:
-          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223570/icons-50x50/express_ul52li.png',
-      },
-      {
-        id: nanoid(),
-        name: 'PostgreSQL',
-        iconUrl:
-          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223571/icons-50x50/postgresql_dm6ytz.png',
-      },
-      {
-        id: nanoid(),
-        name: 'Clarifai API',
-        iconUrl:
-          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223570/icons-50x50/clarifai_ukjot7.png',
-      },
-    ],
-  },
+
   {
     id: nanoid(),
     img: 'dolanan.png',
@@ -184,6 +150,41 @@ export const projectsData = [
         name: 'MapBox API',
         iconUrl:
           'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223571/icons-50x50/mapbox_rsvdgy.png',
+      },
+    ],
+  },
+  {
+    id: nanoid(),
+    img: 'smartface.png',
+    title: 'Smart-Face Detection',
+    info: 'Full-stack web application that detects a face within a submitted image using a Clarifai API. It Built with React for UI, Node/Express.js server, user authentication with JWT, and PostgreSQL database. Login email: zaki@gmail.com and password: zaki',
+    info2: '',
+    url: 'https://face-detection-zaki.herokuapp.com/',
+    repo: 'https://github.com/zakiafada32/smart-face-detection', // if no repo, the button will not show up
+    techList: [
+      {
+        id: nanoid(),
+        name: 'React',
+        iconUrl:
+          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223572/icons-50x50/react_vw6dzy.png',
+      },
+      {
+        id: nanoid(),
+        name: 'Express.js',
+        iconUrl:
+          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223570/icons-50x50/express_ul52li.png',
+      },
+      {
+        id: nanoid(),
+        name: 'PostgreSQL',
+        iconUrl:
+          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223571/icons-50x50/postgresql_dm6ytz.png',
+      },
+      {
+        id: nanoid(),
+        name: 'Clarifai API',
+        iconUrl:
+          'https://res.cloudinary.com/dwonu6xev/image/upload/v1607223570/icons-50x50/clarifai_ukjot7.png',
       },
     ],
   },
