@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Zaki Afada | Web Developer', // e.g: 'Name | Developer'
+  title: 'Zaki Afada | Software Engineer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: 'Zaki Afada full stack web developer, welcome to my website', // e.g: Welcome to my website
 };
@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Zaki Afada',
-  subtitle: 'Full-Stack Web Developer',
+  subtitle: 'Software Engineer',
   cta: '',
 };
 
@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.png',
   paragraphOne:
-    "I'm an Electrical Engineer turned Full-Stack Web Developer. I fell in love with the capabilities of web development after learning from various resources. Since then, I've been on the path of a self-taught developer striving to improve.",
+    "I'm an Electrical Engineer turned Software Engineer. I fell in love with the capabilities of web development after learning from various resources. Since then, I've been on the path of a self-taught developer striving to improve.",
   paragraphTwo:
     'I am a conceptual thinker with strong technical skills. I have experience in JavaScript, Typescript, React, Redux, Node.js, Express.js, Python, PostgreSQL and MongoDB.',
   paragraphThree:
