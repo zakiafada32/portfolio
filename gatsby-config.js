@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Zaki Afada | Web Developer',
+    title: 'Zaki Afada | Software Engineer',
     author: 'Zaki Afada',
-    description: `Zaki Afada full stack web developer, welcome to my website`,
+    description: `Zaki Afada software engineer, welcome to my website. Full stack web developer. Back end engineer`,
   },
   plugins: [
     `gatsby-plugin-sass`,
@@ -28,8 +28,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Simplefolio`,
-        short_name: `Simplefolio`,
+        name: `Zaki | Portfolio`,
+        short_name: `Zaki`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#02aab0`,
