@@ -2,16 +2,16 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Zaki Afada | Software Engineer', // e.g: 'Name | Developer'
+  title: 'Zaki Afada | Software Developer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
-  description: 'Zaki Afada full stack web developer, welcome to my website', // e.g: Welcome to my website
+  description: 'Zaki Afada software developer, welcome to my website', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: '',
   name: 'Zaki Afada',
-  subtitle: 'Software Engineer',
+  subtitle: 'Software Developer',
   cta: '',
 };
 
@@ -19,11 +19,10 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.png',
   paragraphOne:
-    "I'm an Electrical Engineer turned Software Engineer. I fell in love with the capabilities of web development after learning from various resources. Since then, I've been on the path of a self-taught developer striving to improve.",
+    "I'm an Electrical Engineer turned Software Developer. I fell in love with the capabilities of web development after learning from various resources. Since then, I've been on the path of a self-taught developer striving to improve.",
   paragraphTwo:
-    'I am a conceptual thinker with strong technical skills. I have experience in JavaScript, Typescript, React, Redux, Node.js, Express.js, Python, PostgreSQL and MongoDB.',
-  paragraphThree:
-    'Besides programming, my hobbies are outdoor sports, cycling, reading, and listening to a podcast.',
+    'I am a conceptual thinker with strong technical skills. I have experience in JavaScript, Typescript, React, Redux, Node.js, Express.js, Golang, Python, PostgreSQL and MongoDB.',
+  paragraphThree: 'Besides programming, my hobbies are outdoor sports and listening to a podcast.',
   resume: '', // if no resume, the button will not show up
 };
 

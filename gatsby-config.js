@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Zaki Afada | Software Engineer',
+    title: 'Zaki Afada | Software Developer',
     author: 'Zaki Afada',
-    description: `Zaki Afada software engineer, welcome to my website. Full stack web developer. Back end engineer`,
+    description: `Zaki Afada software developer, welcome to my website. Full stack developer. Back end engineer`,
   },
   plugins: [
     `gatsby-plugin-sass`,
